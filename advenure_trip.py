@@ -1,4 +1,5 @@
-trip=input("where do you want to go?")
+#number 1
+'''trip=input("where do you want to go?")
 match trip:
     case "forest":
         choose=input("hide or walk")
@@ -23,7 +24,19 @@ match trip:
     case "river":
         print("you find boat")
     case _:
-        print("unknoen place")    
+        print("unknoen place")'''
+#number 2
+num_1 = float(input("choose first number"))
+num_2 = float(input("choose second number"))
+action = input("whitch action you want") 
+if action == "add":
+    print(num_1 + num_2)
+elif action == "subtract":
+    print(num_1 - num_2)
+elif action == "multiply":
+    print(num_1 * num_2)
+else:
+    print("unknoen action")
            
 
 
