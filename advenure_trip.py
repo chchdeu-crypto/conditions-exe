@@ -62,6 +62,10 @@ if user_pin == correct_pin:
         recepit = input("do you want a recepit")
         if recepit == "yes":
             print("withdrawal approved with recepit")
+        elif recepit == "no":
+            print("withdrawal approved without recepit")
+        else:
+            print("withdrawal approved")
     
 
 
