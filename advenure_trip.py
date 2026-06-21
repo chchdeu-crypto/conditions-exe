@@ -8,7 +8,7 @@ match trip:
             print("you find a sleeping wolf")
         else:
             print("unvalid forest action")
-    case cave:
+    case "cave":
         choose=input("do you have a torch") 
         if choose == "yes":
             turn=input("left or right")
@@ -19,5 +19,11 @@ match trip:
             else:
                 print("invalid cave path")
         else:
-            print("its too dark to enter")             
+            print("its too dark to enter")
+    case "river":
+        print("you find boat")
+    case _:
+        print("unknoen place")    
+           
+
 
