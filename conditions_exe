@@ -16,7 +16,7 @@ given_number = int(input("enter your number"))
 if given_number == number:
     print("even number")
 else:
-    print("odd number")'''
+    print("odd number")
 #number 4
 battery = 15
 is_charging = True
@@ -25,4 +25,11 @@ if battery < 20 and is_charging == True:
 elif battery < 20 and is_charging == False:
     print("low battery conect charger")
 else:
-    print("battery ok")    
+    print("battery ok")'''
+# number 5
+password = "python123"
+given_password = (input("enter your password"))
+if given_password == password:
+    print("access aproved")
+else:
+    print("access denied")       
