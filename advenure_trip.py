@@ -58,6 +58,10 @@ if user_pin == correct_pin:
     money = int(input("how much money do you want to draw"))
     if money > balance:
         print("not enough money")
+    else:
+        recepit = input("do you want a recepit")
+        if recepit == "yes":
+            print("withdrawal approved with recepit")
     
 
 
