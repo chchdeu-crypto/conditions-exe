@@ -51,7 +51,7 @@ if number_1 > number_2:
 elif number_1 < number_2:
     print("second is larger")
 else:
-    print("equel")'''
+    print("equel")
 #number 8
 fuel = 40
 distance = 30
@@ -60,6 +60,12 @@ if fuel - distance >=10:
 elif fuel - distance < 10:
     print("enough fuel loe reserve")
 else:
-    print("not enough")
+    print("not enough")'''
+#number 9
+username = input("enter your username")
+if username:
+    print(f"hello {username}")
+else:
+    print("goust")
 
 
