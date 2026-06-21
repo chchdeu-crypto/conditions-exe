@@ -1,11 +1,19 @@
-'''age = int(input("enter your age"))
+'''number 1
+age = int(input("enter your age"))
 if age >= 18:
     print("can enter")
 else:
-    print("cannot enter")'''
+    print("cannot enter")
+number 2    
 temperature = 38.2
 if temperature > 37.5:
     print("high tenperature")
 else:
     print("normal temperature")
-    
+number 3'''
+number = 15
+given_number = int(input("enter your number"))
+if given_number == number:
+    print("even number")
+else:
+    print("odd number")
