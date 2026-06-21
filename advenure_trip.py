@@ -4,3 +4,8 @@ match trip:
         choose=input("hide or walk")
         if choose == "hide":
             print("you hide behind a tree")
+        elif choose == "walk":
+            print("you find a sleeping wolf")
+        else:
+            print("unvalid forest action")
+
