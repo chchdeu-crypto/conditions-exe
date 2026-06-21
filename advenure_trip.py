@@ -78,6 +78,10 @@ else:
         coupon=input("do you have a coupon")
         if coupon == "yes":
             print("free delivery and 10 discount")
+        else:
+            print("free delivery")
+    else:
+        print("delivery cost 15")        
 
     
 
