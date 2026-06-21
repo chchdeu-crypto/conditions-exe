@@ -76,6 +76,8 @@ else:
     club_member = input("are you a club member")
     if club_member == "yes":
         coupon=input("do you have a coupon")
+        if coupon == "yes":
+            print("free delivery and 10 discount")
 
     
 
