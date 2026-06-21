@@ -65,7 +65,7 @@ if user_pin == correct_pin:
         elif recepit == "no":
             print("withdrawal approved without recepit")
         else:
-            print("withdrawal approved")
+            print("withdrawal approved1")
 else:
     print("wrong pin")            
     
