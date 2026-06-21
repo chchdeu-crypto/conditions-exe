@@ -49,7 +49,7 @@ elif user_choice == "scissors":
 elif user_choice == "rock":
     print("draw")
 else:
-    print("invalid move")'''
+    print("invalid move")
 #number 4
 correct_pin = 4321
 balance = int(500)
@@ -67,7 +67,16 @@ if user_pin == correct_pin:
         else:
             print("withdrawal approved1")
 else:
-    print("wrong pin")            
+    print("wrong pin")'''
+#number 5
+order_price = int(input("enter price of order"))
+if order_price < 50:
+    print("too small for delivery")
+else:
+    club_member = input("are you a club member")
+    if club_member == "yes":
+        coupon=input("do you have a coupon")
+
     
 
 
