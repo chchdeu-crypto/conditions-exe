@@ -1,5 +1,11 @@
-age = int(input("enter your age"))
+'''age = int(input("enter your age"))
 if age >= 18:
     print("can enter")
 else:
-    print("cannot enter")
+    print("cannot enter")'''
+temperature = 38.2
+if temperature > 37.5:
+    print("high tenperature")
+else:
+    print("normal temperature")
+    
