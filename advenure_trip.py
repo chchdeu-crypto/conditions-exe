@@ -24,7 +24,7 @@ match trip:
     case "river":
         print("you find boat")
     case _:
-        print("unknoen place")'''
+        print("unknoen place")
 #number 2
 num_1 = float(input("choose first number"))
 num_2 = float(input("choose second number"))
@@ -36,7 +36,14 @@ elif action == "subtract":
 elif action == "multiply":
     print(num_1 * num_2)
 else:
-    print("unknoen action")
+    print("unknoen action")'''
+#mumber 3
+computer_choice = "rock"
+user_choice = input("enter your choice")
+if user_choice == computer_choice:
+    print("draw")
+elif user_choice =="paper":
+    print("you win")
            
 
 
