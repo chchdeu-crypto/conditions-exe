@@ -36,7 +36,7 @@ elif action == "subtract":
 elif action == "multiply":
     print(num_1 * num_2)
 else:
-    print("unknoen action")'''
+    print("unknoen action")
 #mumber 3
 computer_choice = "rock"
 user_choice = input("enter your choice")
@@ -49,7 +49,18 @@ elif user_choice == "scissors":
 elif user_choice == "rock":
     print("draw")
 else:
-    print("invalid move")
-           
+    print("invalid move")'''
+#number 4
+correct_pin = 4321
+balance = int(500)
+user_pin = int(input("enter your pin"))
+if user_pin == correct_pin:
+    money = int(input("how much money do you want to draw"))
+    if money > balance:
+        print("not enough money")
+    
+
+
+        
 
 
