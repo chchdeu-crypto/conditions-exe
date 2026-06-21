@@ -44,6 +44,12 @@ if user_choice == computer_choice:
     print("draw")
 elif user_choice =="paper":
     print("you win")
+elif user_choice == "scissors":
+    print("computer win")
+elif user_choice == "rock":
+    print("draw")
+else:
+    print("invalid move")
            
 
 
