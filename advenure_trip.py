@@ -66,6 +66,8 @@ if user_pin == correct_pin:
             print("withdrawal approved without recepit")
         else:
             print("withdrawal approved")
+else:
+    print("wrong pin")            
     
 
 
